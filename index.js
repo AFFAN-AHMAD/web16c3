@@ -84,6 +84,8 @@ app.post("/user/logout", (req, res) => {
     })
 })
 
-app.listen(8080, (req, res) => {
+
+const PORT = process.env.PORT||8080
+app.listen(PORT, (req, res) => {
   console.log("server started");
 })
