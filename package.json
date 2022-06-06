@@ -20,6 +20,9 @@
   "bugs": {
     "url": "https://github.com/AFFAN-AHMAD/web16c3/issues"
   },
+  "engines": {
+    "node": "16.13.2.x"
+  },
   "homepage": "https://github.com/AFFAN-AHMAD/web16c3#readme",
   "description": ""
 }

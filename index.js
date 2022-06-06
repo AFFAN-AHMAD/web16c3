@@ -8,7 +8,6 @@ const UserRouter = require("./routes/user.route.js");
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// app.use("/user", UserRouter)
 app.post("/user/create", (req, res) => {
   let newUser = { ...req.body, id };
   //   let id = req.body.id;
@@ -84,7 +83,9 @@ app.post("/user/logout", (req, res) => {
     })
 })
 
-
+app.get("/",(req,res)=>{
+    res.send("its working")
+})
 const PORT = process.env.PORT||8080
 app.listen(PORT, (req, res) => {
   console.log("server started");
