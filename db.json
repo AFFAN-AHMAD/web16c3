@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "role": "voter",
+      "age": 15,
+      "username": "johnSon",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "name": "John crete",
+      "role": "voter",
+      "age": 15,
+      "username": "johnVick",
+      "password": "12345"
+    },
+    {
+      "id": 3,
+      "name": "Donald Trump",
+      "role": "candidate",
+      "votes": 0,
+      "party": "partA",
+      "age": 15
+    },
+    {
+      "id": 4,
+      "name": "Joe Biden",
+      "role": "candidate",
+      "votes": 0,
+      "party": "partB",
+      "age": 15
+    },
+    {
+      "name": "Joe culture",
+      "role": "voter",
+      "votes": 0,
+      "username": "john",
+      "password": "1234",
+      "age": 15,
+      "id": "d4454c2d-f3ec-4c3d-992f-f4961536d663"
+    },
+    {
+      "id": 1,
+      "name": "John Doe",
+      "role": "voter",
+      "age": 15,
+      "username": "johnSon",
+      "password": "1234",
+      "token": "aacd96b9-43fa-4cc9-aa23-4934541e35f9"
+    }
+  ]
+}
